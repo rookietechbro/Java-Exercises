@@ -1,4 +1,4 @@
-package ChapterTwoL;
+package Chapter2L;
 /*
 2.1(Convert Celsius to Fahrenheit) Write a program that reads a Celsius degree in
         a double value from the console, then converts it to Fahrenheit and displays the

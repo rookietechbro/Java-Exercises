@@ -1,4 +1,4 @@
-package ChallengesFromOtherSources.Others;
+package ParkingLot;
 
 public class AllPrimeNumbersBetween1And100 {
     public static void main(String[] args) {

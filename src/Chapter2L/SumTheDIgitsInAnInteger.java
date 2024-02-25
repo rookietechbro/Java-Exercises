@@ -1,4 +1,4 @@
-package ChapterTwoL;
+package Chapter2L;
 
 /*
 2.6 (Sum the digits in an integer) Write a program that reads an integer between 0 and

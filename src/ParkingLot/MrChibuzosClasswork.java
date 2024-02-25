@@ -1,4 +1,4 @@
-package ProjectsByOnyii;
+package ParkingLot;
 
 import java.util.Scanner;
 

@@ -17,7 +17,7 @@ public class ScoresArray {
 
  */
 
-package ProjectsByOnyii;
+package ProjectsByOnyii1;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package ChapterTwoL;
+package Chapter2L;
 
 /*
 *2.5 (Financial application: calculate tips) Write a program that reads the subtotal

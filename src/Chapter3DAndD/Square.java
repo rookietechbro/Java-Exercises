@@ -1,4 +1,4 @@
-package ProjectsByOnyii;
+package Chapter3DAndD;
 
 public class Square {
         public static int squareOfTwoNumbers(int numberOne, int numberTwo){

@@ -1,4 +1,4 @@
-package ProjectsByOnyii;
+package Chapter3DAndD;
 
 public class SquareRoot2 {
     public static double squareRootThisNumber(double number){

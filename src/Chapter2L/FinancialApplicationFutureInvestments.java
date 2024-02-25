@@ -1,4 +1,4 @@
-package ChapterTwoL;
+package Chapter2L;
 
 /*2.21 (Financial application: calculate future investment value) Write a program that
         reads in investment amount, annual interest rate, and number of years, and displays

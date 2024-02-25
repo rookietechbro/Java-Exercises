@@ -1,4 +1,4 @@
-package ProjectsByOnyii;
+package ProjectsByOnyii1;
 
 public class CheckPoints {
   /*  public static void main(String[] args) {

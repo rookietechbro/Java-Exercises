@@ -1,9 +1,6 @@
 package Chapter3DAndD;
 
-public class ComputerizationOfHealthRecords {
-    public static void main(String[] args) {
-
-    }
+public class HealthProfile {
     private String firstName;
     private String lastName;
     private String gender;
@@ -14,7 +11,7 @@ public class ComputerizationOfHealthRecords {
     private double weight;
     public final int CURRENT_YEAR = 2023;
 
-    public ComputerizationOfHealthRecords(String firstName, String lastName, String gender, int dayOfBirth, int monthOfBirth, int yearOfBirth, double height, double weight) {
+    public HealthProfile(String firstName, String lastName, String gender, int dayOfBirth, int monthOfBirth, int yearOfBirth, double height, double weight) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.gender = gender;
@@ -81,9 +78,7 @@ public class ComputerizationOfHealthRecords {
         return height;
     }
 
-    public void setWeight() {
-        this.weight = weight;
-    }
+    public void setWeight(double weight) {this.weight = weight;}
 
     public double getWeight() {
         return weight;
@@ -96,19 +91,23 @@ public class ComputerizationOfHealthRecords {
     }
 
     public int maximumHeartRate() {
-        int heartRate;
-        return heartRate = 220 - (CURRENT_YEAR - yearOfBirth);
+        return  220 - (CURRENT_YEAR - yearOfBirth);
     }
 
     public int targetHeartRateRange() {
-        int targetHeartRateRangeMin = (50 * (220 - (CURRENT_YEAR - yearOfBirth))) / 100;
-        int targetHeartRateRangeMax = (85 * (220 - (CURRENT_YEAR - yearOfBirth))) / 100;
-        int targetHeartRange = targetHeartRateRangeMax - targetHeartRateRangeMin;
-        return targetHeartRange;
+        int targetHeartRateRangeMin = (50 * maximumHeartRate()) / 100;
+        int targetHeartRateRangeMax = (85 * maximumHeartRate()) / 100;
+        return targetHeartRateRangeMax - targetHeartRateRangeMin;
     }
 
-    public double BMI() {
+    public double BMI(){
         return (double) weight / (height * height);
     }
 
+    public String healthProfileInformation(){
+        return "Name: " + firstName + " " + lastName + "Gender: " + gender + "Date Of Birth: " + dayOfBirth + ":" + monthOfBirth + ":" + yearOfBirth
+                + "Height: " + height + "Weight: " + weight + "Age: "+ ageInYears() + "BMI: "+ BMI() + "Maximum Heart Rate: " + maximumHeartRate()
+                + "Target Heart Rate Range: "+ targetHeartRateRange();
+
+    }
 }

@@ -1,4 +1,4 @@
-package ChapterThreeL;
+package Chapter3L;
 
 /*
 *3.6 (Health application: BMI) Revise Listing 3.4, ComputeAndInterpretBMI.java, to

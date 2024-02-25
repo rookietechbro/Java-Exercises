@@ -1,4 +1,4 @@
-package Others;
+package ChallengesFromOtherSources.Others;
 
 public class SumOfFirst10NaturalNumbers {
     public static void main(String[] args) {

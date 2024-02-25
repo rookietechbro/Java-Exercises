@@ -1,4 +1,4 @@
-package ChallengesFromOtherSources.Others;
+package ParkingLot;
 
 /*You can compute the distance to a large object, such as a rock wall, by
         timing the echo. For example, if you clap your hands and time how long it takes for you

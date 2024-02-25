@@ -1,4 +1,4 @@
-package ChapterThreeL;
+package Chapter3L;
 
 /*
 (Game: add three numbers) The program in Listing 3.1, AdditionQuiz.java, generates

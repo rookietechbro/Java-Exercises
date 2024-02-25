@@ -1,4 +1,4 @@
-package PracticingLoops;
+package ChallengesFromOtherSources.PracticingLoops;
 
 public class TenHellosWhileLoops {
     public static void main(String[] args) {

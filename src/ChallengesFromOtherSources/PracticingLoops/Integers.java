@@ -1,4 +1,4 @@
-package PracticingLoops;
+package ChallengesFromOtherSources.PracticingLoops;
 
 /*
 1.3.9 Write a program that, using one for loop and one if statement, prints the

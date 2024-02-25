@@ -1,6 +1,4 @@
-package TEST;
-
-import ProjectsByOnyii.Clock;
+import Chapter3DAndD.Clock;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

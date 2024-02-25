@@ -1,4 +1,4 @@
-package ChallengesFromOtherSources;
+package ChallengesFromOtherSources.Others;
 
 public class StringsPlay {
     public static void main(String[] args) {

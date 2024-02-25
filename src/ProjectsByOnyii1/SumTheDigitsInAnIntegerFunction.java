@@ -1,4 +1,4 @@
-package ProjectsByOnyii;
+package ProjectsByOnyii1;
 
 public class SumTheDigitsInAnIntegerFunction {
     public static void main(String[] args) {

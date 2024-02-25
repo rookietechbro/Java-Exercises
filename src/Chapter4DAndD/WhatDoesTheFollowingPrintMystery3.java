@@ -1,2 +1,42 @@
-package Chapter4DAndD;public class WhatDoesTheFollowingPrintMystery3 {
-}
+package Chapter4DAndD;
+/*
+public class Mystery3 {
+public static void main(String[] args) {
+int row = 5;
+
+while (row >= 1) {
+int column = 5;
+
+while (column >= 1) {
+System.out.print(row % 2 == 0 ? "X" : "O");
+++column;
+// end while
+
+--row;
+System.out.println();
+// end while
+} // end main
+} // end class Mystery3
+
+Answer:
+It's an infinity loop.
+ */
+public class WhatDoesTheFollowingPrintMystery3 {
+    public static void main(String[] args) {
+        int row = 5;
+
+        while (row >= 1) {
+            int column = 5;
+
+            while (column >= 1) {
+                System.out.print(row % 2 == 0 ? "X" : "O");
+                ++column;
+            }
+// end while
+
+                --row;
+                System.out.println();
+// end while
+            }
+        }
+    }

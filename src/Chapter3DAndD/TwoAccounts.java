@@ -1,4 +1,4 @@
-package ParkingLot;
+package Chapter3DAndD;
 
 /*
 3.15 (Removing Duplicated Code in Method main) In the AccountTest class of Fig. 3.9, method
@@ -35,7 +35,7 @@ public class TwoAccounts {
 
     public TwoAccounts(String name, double balance) {
         this.name = name;
-        if (balance > 0.0) {
+        if (balance >= 0.0) {
             this.balance = balance;
         }
     }
@@ -46,21 +46,16 @@ public class TwoAccounts {
     public String getName() {
         return name;
     }
-   public void setBalance (double balance) {
-       double amount = 0;
-       if (balance > 0.0) {
-           balance = balance + amount;
+   public void setBalance (double amount) {
+       if (amount > 0.0) {
+          balance = balance + amount;
        }
    }
     public double getBalance() {
         return balance;
     }
-
-    public void displayAccount(TwoAccounts account){
-        Scanner input = new Scanner(System.in);
-        System.out.printf("%s balance: $%.2f%n",account.getName(), account.getBalance());
-        System.out.print("Enter deposit amount for this account: ");
-        double depositAmount = input.nextDouble();
-        System.out.printf("%n adding %.2f to this account's balance %n%n", depositAmount);
+;
+    public String displayAccount(TwoAccounts account){
+        return "Account balance of " + account.getName() + " is " + account.getBalance();
     }
 }

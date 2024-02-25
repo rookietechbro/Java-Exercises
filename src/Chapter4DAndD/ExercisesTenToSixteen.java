@@ -1,6 +1,6 @@
 package Chapter4DAndD;
 
-public class ExerciesTenToFifteen {
+public class ExercisesTenToSixteen {
     /*
     4.10 Compare and contrast the if single-selection statement and the while iteration statement.
 How are these two statements similar?
@@ -17,7 +17,7 @@ A loss of precision due to truncation occurs as int will present only the whole 
 By casting the expression with the unary double cast operator (double).
 
 4.12 Describe the two ways in which control statements can be combined.
-(a) By control stacking i.e starting a control statement at the exit point of another control statement.
+(a) By control stacking i.e. starting a control statement at the exit point of another control statement.
 (b) By control nesting i.e. placing a control statement in the body of another control statement.
 
 4.13 What type of repetition would be appropriate for obtaining an input from the user until the
@@ -31,7 +31,8 @@ While in a counter-controlled iteration, the number of times, which is known pri
 
 4.14 If integers x and y are set to 7 and 3, what is the value of x after x = y++ and x = ++y?
 Answer:
-(a) The value of x after x = y++ is
+(a) The value of x after x = y++ is 3
+(b) The value of x after x = ++y is 4
 
 4.15 Identify and correct the errors in each of the following pieces of code. [Note: There may be more than one error in each piece of code.]
     a) if (age >= 65);
@@ -77,25 +78,32 @@ Answer:
        while (y =! 0){
      System.out.println(y);
      }
+}
 
-4.16 What does the following program print?
-// Exercise 4.16: Mystery.java
- public class Mystery {
- public static void main(String[] args) {
- int x = -2;
- int total = 0;
+ /*
+4.16
+What does the following program print?
+Exercise 4.16: Mystery.java
+    */
 
- while (x <= 10) {
- int y = x + 2;
- x++;
- total += y;
- System.out.printf("Y is: %d and total is %d\n", y, total);
- }// end while
+    public static class Mystery {
+        public static void main(String[] args) {
+            int x = -2;
+            int total = 0;
 
- }// end main
- } // end class Mystery
+            while (x <= 10) {
+                int y = x + 2;
+                x++;
+                total += y;
+                System.out.printf("Y is: %d and total is %d\n", y, total);
+            }// end while
+
+        }// end main
+    } // end class Mystery
+}
+    /*
  Answer:
  Y is 12 and total is 78
 
-    */
-}
+     */
+

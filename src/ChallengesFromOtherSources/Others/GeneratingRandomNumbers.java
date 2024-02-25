@@ -1,4 +1,4 @@
-package ChallengesFromOtherSources;
+package ChallengesFromOtherSources.Others;
 
 import java.util.Scanner;
 

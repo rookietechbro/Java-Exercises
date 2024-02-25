@@ -1,4 +1,4 @@
-package PracticingLoops;
+package ParkingLot;
 
 /*
 1.3.46 Euler’s sum-of-powers conjecture. In 1769 Leonhard Euler formulated a

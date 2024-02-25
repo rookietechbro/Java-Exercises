@@ -1,4 +1,4 @@
-package ProjectsByOnyii;
+package ProjectsByOnyii1;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package ProjectsByOnyii;
+package Chapter3DAndD;
 public class HeartRates {
 
     private String firstName;
@@ -57,13 +57,21 @@ public class HeartRates {
     }
 
     public int calculateAndReturnAPersonsAge() {
-        int age = CURRENTYEAR - birthYear;
-        return  age;
+        return  CURRENTYEAR - birthYear;
     }
 
+    public int calculateAndReturnAPersonsMaximumHeartRate() {
+        return 220 - calculateAndReturnAPersonsAge();
+    }
 
-//        public void minimumHeartRateCalculation() {
-//            int minimumHeartRate = 220 - age;
-//            System.out.printf("Your minimum heart rate is %d", minimumHeartRate);
-//    }
+    public double calculateAndReturnAPersonsTargetHeartRate() {
+        double targetHeartRateRangeMin = (50 * calculateAndReturnAPersonsMaximumHeartRate()) / 100.0;
+        double targetHeartRateRangeMax = (85 * calculateAndReturnAPersonsMaximumHeartRate()) / 100.0;
+        return (targetHeartRateRangeMax - targetHeartRateRangeMin);
+    }
+    public String aPersonsHealthInformation() {
+        return "Name: " + firstName + " " + lastName + "Date Of Birth: " + birthDay + ":" + birthMonth + ":" + birthYear
+                + "Age: " + calculateAndReturnAPersonsAge() + " years" + " Maximum Heart Rate: " + calculateAndReturnAPersonsMaximumHeartRate()
+                + "Target Heart Rate Range: " + calculateAndReturnAPersonsTargetHeartRate();
+    }
 }

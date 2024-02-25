@@ -1,4 +1,4 @@
-package ChapterThreeL;
+package Chapter3L;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package PracticingArrays;
+package ChallengesFromOtherSources.PracticingArrays;
 
 import java.util.Arrays;
 
@@ -14,7 +14,7 @@ public class ArraysExample2 {
 
         //method2:  creating and initializing the array object on the same line.
         int[] numbers2 = {1, 2, 3, 4, 5};
-        System.out.println("The length of this array numbers2 is " + numbers2.length + ".");
+        System.out.println("The length of array numbers2 is " + numbers2.length + ".");
         System.out.println(Arrays.toString(numbers2));
         numbers2[3] = 44;
         System.out.println(Arrays.toString(numbers2));

@@ -1,4 +1,4 @@
-package AssignmentOnLoops;
+package ChallengesFromOtherSources.AssignmentOnLoops;
 
 import java.util.Objects;
 import java.util.Scanner;
@@ -15,7 +15,7 @@ public class TwoNumbers {
             int sum = firstNumber + secondNumber;
             System.out.printf("Sum is %d.\n", sum);
             System.out.println("Do you wish to perform this operation again?");
-            answer = input.nextLine();
+            answer = input.next();
         }
         while (Objects.equals(answer, "Yes"));
     }

@@ -1,4 +1,4 @@
-package PracticingLoops;
+package ParkingLot;
 
 /*
 1.3.16 Write a program that takes an integer command-line argument n and

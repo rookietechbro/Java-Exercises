@@ -1,4 +1,4 @@
-package ChapterThreeL;
+package Chapter3L;
 
 /*
 *3.3 (Algebra: solve 2 * 2 linear equations) A linear equation can be solved using

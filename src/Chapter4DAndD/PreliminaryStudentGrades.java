@@ -1,6 +1,6 @@
 package Chapter4DAndD;
 
-public class Preliminaries {
+public class PreliminaryStudentGrades {
     public static void main(String[] args) {
         java.util.Scanner input = new java.util.Scanner(System.in);
         System.out.print("Enter score: ");

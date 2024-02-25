@@ -1,4 +1,4 @@
-package ChapterThreeL;
+package Chapter3L;
 
 /*      a. How do you generate a random integer i such that 0 <= i < 20?
         b. How do you generate a random integer i such that 10 <= i < 20?

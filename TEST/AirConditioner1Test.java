@@ -1,10 +1,11 @@
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 
 public class AirConditioner1Test {
     @Test
-    public  void  testThatAirConditionerIsOn(){
+    public void testThatAirConditionerIsOn(){
         //Given that
         AirConditioner1 samsung = new AirConditioner1();
         //When
@@ -28,7 +29,7 @@ public class AirConditioner1Test {
         //Given that
         AirConditioner1 samsung = new AirConditioner1();
         //When
-        for(int temperature = 0; temperature < 3; temperature++){
+        for(int temperature = 0; temperature < 30; temperature++){
         samsung.increaseTemperature();
         }
         //Check that
@@ -63,8 +64,5 @@ public class AirConditioner1Test {
 
         //Check that
         Assertions.assertEquals(16, samsung.getDecreaseTemperature());
-
     }
-
-
 }

@@ -1,6 +1,4 @@
-package TEST;
-
-import ProjectsByOnyii.Car;
+import Chapter3DAndD.Car;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -28,8 +26,6 @@ public class CarApplicationTest {
     public void testThatICanApplyA5_PercentDiscountOnTheCamry(){
         Car camry = new Car("Camry", "2023", 3_000, 7);
         double price = camry.getPrice();
-
         assertEquals(2790.0, camry.getPrice());
     }
-
 }

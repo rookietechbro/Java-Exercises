@@ -1,6 +1,4 @@
-package TEST;
-
-import ProjectsByOnyii.Square;
+import Chapter3DAndD.Square;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

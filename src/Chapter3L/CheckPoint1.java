@@ -1,4 +1,4 @@
-package ChapterThreeL;
+package Chapter3L;
 
 /*
 Write an if statement that increases pay by 3% if score is greater than 90.

@@ -1,4 +1,4 @@
-package ChapterTwoL;
+package Chapter2L;
 
 /*
 *2.20 (Financial application: calculate interest) If you know the balance and the annual

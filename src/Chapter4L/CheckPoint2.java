@@ -1,4 +1,4 @@
-package ChapterFourL;
+package Chapter4L;
 
 public class CheckPoint2 {
     public static void main(String[] args) {

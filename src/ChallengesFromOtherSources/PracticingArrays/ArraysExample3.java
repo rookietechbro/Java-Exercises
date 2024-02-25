@@ -1,4 +1,4 @@
-package PracticingArrays;
+package ChallengesFromOtherSources.PracticingArrays;
 
 import java.util.Arrays;
 

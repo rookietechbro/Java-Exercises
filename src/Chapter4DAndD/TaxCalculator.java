@@ -2,7 +2,7 @@ package Chapter4DAndD;
 
 import java.util.Scanner;
 
-public class TaxCollector {
+public class TaxCalculator {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -17,7 +17,8 @@ public class TaxCollector {
             if (salary > 0.0 && salary <= 30_000) {
                double tax = 0.15 * salary;
                 System.out.println("Your total tax is " + "$" + tax + "\n");
-            } else if (salary >= 30_000) {
+            }
+            else if (salary >= 30_000) {
                 double tax = (0.15 * 30_000) + ((salary - 30_000) * 0.20);
                 System.out.println("Your total tax is " + "$" + tax + "\n");
             }

@@ -1,4 +1,4 @@
-package ChapterFourL;
+package Chapter4L;
 
 /*
 Write an expression that obtains a random integer between 34 and 55. Write an

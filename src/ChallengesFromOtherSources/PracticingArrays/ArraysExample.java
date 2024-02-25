@@ -1,4 +1,4 @@
-package PracticingArrays;
+package ChallengesFromOtherSources.PracticingArrays;
 
 public class ArraysExample {
     public static void main(String[] args) {

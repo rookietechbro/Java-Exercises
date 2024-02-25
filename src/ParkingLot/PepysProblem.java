@@ -1,4 +1,4 @@
-package PracticingLoops;
+package ParkingLot;
 /*
 Median-of-5. Write a program that takes five distinct integers as commandline arguments and prints the median value (the value such that two of the other
 integers are smaller and two are larger). Extra credit: Solve the problem with a

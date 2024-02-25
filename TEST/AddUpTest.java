@@ -1,6 +1,4 @@
-package TEST;
-
-import ProjectsByOnyii.AddUp;
+import Chapter3DAndD.AddUp;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

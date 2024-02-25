@@ -1,4 +1,4 @@
-package ChapterFourL;
+package Chapter4L;
 /*
 a) Use print statements to find out the ASCII code for '1', 'A', 'B', 'a', and 'b'.
 b) Use print statements to find out the character for the decimal codes 40, 59, 79, 85, and 90.

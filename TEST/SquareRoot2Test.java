@@ -1,6 +1,4 @@
-package TEST;
-
-import ProjectsByOnyii.SquareRoot2;
+import Chapter3DAndD.SquareRoot2;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
